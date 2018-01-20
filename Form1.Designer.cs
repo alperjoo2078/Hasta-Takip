@@ -189,8 +189,10 @@
             // 
             // dateDogumTarihi
             // 
+            this.dateDogumTarihi.CalendarTitleBackColor = System.Drawing.Color.Aqua;
             this.dateDogumTarihi.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateDogumTarihi.Location = new System.Drawing.Point(121, 61);
+            this.dateDogumTarihi.MaxDate = new System.DateTime(2019, 1, 1, 0, 0, 0, 0);
             this.dateDogumTarihi.Name = "dateDogumTarihi";
             this.dateDogumTarihi.Size = new System.Drawing.Size(105, 20);
             this.dateDogumTarihi.TabIndex = 13;

@@ -21,6 +21,8 @@ namespace WindowsFormsApp3
         {
             yas = DateTime.Now.Year - dogumYili;
 
+
+
         }
         public void IndirimliUcretHesapla()
         {
